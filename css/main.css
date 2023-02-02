@@ -4,14 +4,14 @@ img, video, object {
 }
 
 body {
-    font-family: 'monserrat', Arial, Helvetica, sans-serif;
+    font-family: 'monsterrat', Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
 h1, h2 {
-    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
     font-size: 28px;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
@@ -30,28 +30,53 @@ p {
 
 
 #box1 {
-    background-color: rgba(233, 52, 16, 0.432);
-    
+    background-color: rgba(249, 74, 179, 0.212);
+    font-weight: bold;
     height: 300px;
 }
 
 #box2 {
-    background-color: rgba(163, 224, 42, 0.329);
-
+    background-color: rgba(250, 76, 76, 0.24);
+    font-weight: bold;
     height: 300px;
 }
 
-@media screen and (min-width:640px) {
+#box3 {
+    display: none;
+
+}
+
+#box4 {
+    display: none;
+}
+
+@media screen and (min-width:641px) {
     #column-con {
         display: flex;
         flex-direction: row;
     }
 
     #box1 {
-        width: 70%;
+        width: 25%;
+        background-color: rgba(0, 0, 255, 0.378);
     }
 
     #box2 {
-        width: 30%;
+        background-color: rgba(128, 0, 128, 0.356);
+        width: 25%;
+    }
+
+    #box3 {
+        background-color: rgba(128, 128, 128, 0.293);
+        font-weight: bold;
+        width: 25%;
+        display: block;
+    }
+
+    #box4 {
+        background-color: rgba(165, 42, 42, 0.344);
+        font-weight: bold;
+        width: 25%;
+        display: block;
     }
 }
