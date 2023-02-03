@@ -21,6 +21,12 @@ p {
     margin-bottom: 20px;
 }
 
+#top {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
 #container {
     /* allows conatiner to scale up to 1200px */
     max-width: 1200px;
